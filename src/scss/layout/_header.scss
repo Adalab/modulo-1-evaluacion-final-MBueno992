@@ -1,0 +1,39 @@
+.header {
+  background-color: black;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+.logo {
+  width: 100px;
+  height: 30px;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.main-nav{
+  display: none ;
+}
+.menuIcon img {
+  width: 30px;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+input:checked  ~ .main-nav{
+  display: block;
+}
+input{
+  display: none;
+}
+
+.main-nav li{
+  display: block;
+  background-color: white;
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+  color: black;
+}
