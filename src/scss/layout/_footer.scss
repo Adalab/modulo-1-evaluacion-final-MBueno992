@@ -6,8 +6,9 @@
   align-items: center;
   height: 475px;
   &__arrow {
-    height: 45px;
-    width: 45px;
+
+    background-color: $colorWhite;
+    padding: 15px;
     border-radius: 50%;
     border: none;
     box-shadow: 0 0 2px black;
