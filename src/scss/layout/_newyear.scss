@@ -1,4 +1,36 @@
-.advantages{
-    background-color: $colorlightGrey;
-    
+.advantages {
+  background-color: $colorWhiteTwo;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+
+  &__title{
+    font-family: $fontSlab;
+    font-size: 2rem;    
+    text-align: center;
+    padding: 29px 50px 31px 50px; 
+ }
+    &__startNow{
+        width: 184px;
+        height: 45px;
+        border-radius: 40px;
+        border: none;
+        background-color: $colorBrightOrange;
+        color: $colorWhite;
+        font-family: $fontReg;
+        font-size: 2rem;
+        margin: 27px 0 49px 0;
+    }
+}
+
+.article {
+  text-align: center;
+  font-size: 1.8rem;
+  font-family: $fontReg;
+  margin: 20px 72px;
+  &__title{
+    font-size: 1.8rem;
+    font-family: $fontSlab;
+    padding-bottom: 5px;
+  }
 }
