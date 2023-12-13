@@ -1,50 +1,80 @@
 .footer {
   background-color: $colorGreyish;
   color: $colorWhite;
-  display: flex;
+  /*display: flex;
   flex-direction: column;
-  align-items: center;
-  height: 475px;
-  &__arrow {
-
+  align-items: center;*/
+  @media(min-width: 768px){
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: baseline;
+    gap: 32px;
+  }
+  &__copy{
+    text-align: center;
+    font-family: $fontReg;
+    font-size: 1.4rem;
+    line-height: 30px;
+    padding-bottom: 36px;
+      &--love {
+      color: $colorBrightOrange;
+    }
+    @media(min-width: 768px){
+    margin-left: 100px
+    }
+  }
+  /*&__arrow {
     background-color: $colorWhite;
     padding: 15px;
     border-radius: 50%;
     border: none;
     box-shadow: 0 0 2px black;
-    
     position: relative;
-    transform: translateY(-50%);
-    
-  }
+   transform: translateY(-25px);
+  }*/
 
 }
 .nav {
+  padding-top: 65px;
+  @media(min-width: 768px){
+    display:flex;
+    flex-direction: row;
+    padding: 0;
+    margin-left: 50px;
+
+   
+  }
   &__list {
     list-style: none;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 30px;
+    @media(min-width: 768px){
+      text-align: start;
+      margin: 56px 69px 34px 56px;
+    
+    }
     &--link {
       line-height: 30px;
       text-decoration: none;
       color: $colorWhite;
       text-transform: uppercase;
       font-family: $fontReg;
-      font-size: 1.6rem;   
+      font-size: 1.6rem;
     }
   }
 }
-.copy{
+.copy {
   text-align: center;
   font-family: $fontReg;
   font-size: 1.4rem;
   margin: 32px 0;
-  &::first-line{
+  &::first-line {
     word-spacing: 100vw;
     line-height: 30px;
   }
-  &__love{
+  &__love {
     color: $colorBrightOrange;
   }
 
