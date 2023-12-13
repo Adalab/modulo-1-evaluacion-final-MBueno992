@@ -3,6 +3,7 @@
   display: grid;
   grid-template-columns: 1fr;
   justify-items: center;
+  height: 624px;
 
   &__title{
     font-family: $fontSlab;
@@ -28,6 +29,7 @@
   font-size: 1.8rem;
   font-family: $fontReg;
   margin: 20px 72px;
+  line-height: 25px;
   &__title{
     font-size: 1.8rem;
     font-family: $fontSlab;

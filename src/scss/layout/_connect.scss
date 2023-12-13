@@ -1,32 +1,35 @@
-.connect{
-    margin-left:16px;
-    margin-top: 34px;
-    &__inspire{
-        color: $colorBrightOrange;
-        font-family:$fontReg ;
-        font-size: 1.4rem;
+.connect {
+  margin-left: 21px;
+  margin-right: 12px;
+  margin-top: 34px;
+  height: 376px;
+  &__inspire {
+    color: $colorBrightOrange;
+    font-family: $fontReg;
+    font-size: 1.4rem;
+  }
+  &__ppal {
+    &--title {
+      font-family: $fontSlab;
+      font-size: 2.4rem;
+      padding: 11px 0;
     }
-    &__ppal{
-        
-        &--title{
-            font-family: $fontSlab;
-            font-size: 2.4rem;
-            padding: 11px 0;
-        }
-        &--text{
-            font-family: $fontReg;
-            font-size: 1.8rem;
-        }
-      }
-      &__buy{
-        margin-top: 51px;
-       padding:10px 20px;
-        border-radius: 40px;
-        border: 2px solid $colorBrightOrange;
-      background-color: $colorWhite;
+    &--text {
       font-family: $fontReg;
-      font-size: 2rem;
-      color: $colorBrightOrange;
+      font-size: 1.8rem;
+      line-height: 25px;
     }
+  }
+  &__buy {
+    margin-top: 30px;
+    width: 160px;
+    height: 45px;
+    border-radius: 40px;
+    border: 2px solid $colorBrightOrange;
+    background-color: $colorWhite;
+    font-family: $fontReg;
+    font-size: 2rem;
+    color: $colorBrightOrange;
 
+  }
 }
