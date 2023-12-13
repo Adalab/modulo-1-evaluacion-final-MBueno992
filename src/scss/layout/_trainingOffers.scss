@@ -25,6 +25,15 @@
     font-family: $fontReg;
     font-size: 2rem;
     margin: 27px 68px 27px 68px;
+    &:hover{
+      background-color: $colorWhite;
+      color: $colorBrightOrange;
+      border: 2px solid $colorBrightOrange;
+      transition: all 0.5s ;
+    transform: rotate(1turn);
+
+      
+    }
     @media (min-width: 768px) {
       /* margin-bottom: 56px;*/
       margin: 38px 292px 34px 292px;
@@ -41,6 +50,7 @@
     border-radius: 50%;
     border: none;
     box-shadow: 0 0 2px black;
+   
   }
 }
 
