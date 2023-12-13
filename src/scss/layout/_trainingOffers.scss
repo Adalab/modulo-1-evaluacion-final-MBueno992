@@ -24,13 +24,23 @@
     color: $colorWhite;
     font-family: $fontReg;
     font-size: 2rem;
-    margin: 27px 0 49px 0;
+    margin: 27px 68px 27px 68px;
     @media (min-width: 768px) {
-      margin-bottom: 56px;
+      /* margin-bottom: 56px;*/
+      margin: 38px 292px 34px 292px;
     }
     @media (min-width: 1200px) {
       margin-bottom: 76px;
     }
+  }
+  &__arrow {
+    position: relative;
+    transform: translateY(30px);
+    padding: 15px;
+    background-color: $colorWhite;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0 0 2px black;
   }
 }
 
@@ -65,4 +75,3 @@
     }
   }
 }
-

@@ -1,59 +1,44 @@
 .footer {
   background-color: $colorGreyish;
   color: $colorWhite;
-  /*display: flex;
-  flex-direction: column;
-  align-items: center;*/
-  @media(min-width: 768px){
-    display:flex;
+  @media (min-width: 768px) {
+    display: flex;
     flex-direction: row-reverse;
     justify-content: center;
     align-items: baseline;
     gap: 32px;
   }
-  &__copy{
+  &__copy {
     text-align: center;
     font-family: $fontReg;
     font-size: 1.4rem;
     line-height: 30px;
     padding-bottom: 36px;
-      &--love {
+    &--love {
       color: $colorBrightOrange;
     }
-    @media(min-width: 768px){
-    margin-left: 100px
+    @media (min-width: 768px) {
+      margin-left: 100px;
     }
   }
-  /*&__arrow {
-    background-color: $colorWhite;
-    padding: 15px;
-    border-radius: 50%;
-    border: none;
-    box-shadow: 0 0 2px black;
-    position: relative;
-   transform: translateY(-25px);
-  }*/
-
 }
 .nav {
   padding-top: 65px;
-  @media(min-width: 768px){
-    display:flex;
+  @media (min-width: 768px) {
+    display: flex;
     flex-direction: row;
     padding: 0;
     margin-left: 50px;
-
-   
+    align-items: baseline;
   }
   &__list {
     list-style: none;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 30px;
-    @media(min-width: 768px){
+    @media (min-width: 768px) {
       text-align: start;
       margin: 56px 69px 34px 56px;
-    
     }
     &--link {
       line-height: 30px;
@@ -77,5 +62,4 @@
   &__love {
     color: $colorBrightOrange;
   }
-
 }
