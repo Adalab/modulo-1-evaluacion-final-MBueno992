@@ -49,10 +49,9 @@
     &:hover{
       background-color: $colorBrightOrange;
       color: $colorWhite;
-      transition-duration: 1s;
-      transition-property: all;
+      transition: 1s all;
       transform: rotate(1turn);
-      transform-box: border-box;
+
     }
   }
 }

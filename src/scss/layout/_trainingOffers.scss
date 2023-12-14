@@ -1,7 +1,6 @@
 .advantages {
   background-color: $colorWhiteTwo;
   text-align: center;
-
   &__title {
     font-family: $fontSlab;
     font-size: 2rem;
@@ -25,14 +24,12 @@
     font-family: $fontReg;
     font-size: 2rem;
     margin: 27px 68px 27px 68px;
-    &:hover{
+    &:hover {
       background-color: $colorWhite;
       color: $colorBrightOrange;
       border: 2px solid $colorBrightOrange;
-      transition: all 0.5s ;
-    transform: rotate(1turn);
-
-      
+      transition: 1s all;
+      transform: rotate(1turn);
     }
     @media (min-width: 768px) {
       /* margin-bottom: 56px;*/
@@ -45,12 +42,25 @@
   &__arrow {
     position: relative;
     transform: translateY(30px);
-    padding: 15px;
     background-color: $colorWhite;
+    padding: 10px;
+
     border-radius: 50%;
     border: none;
-    box-shadow: 0 0 2px black;
-   
+    &:hover {
+      animation: zoom-in-zoom-out 1s ease 2;
+    }
+    @keyframes zoom-in-zoom-out {
+      0% {
+        transform: scale(1, 1);
+      }
+      50% {
+        transform: scale(1.5, 1.5);
+      }
+      100% {
+        transform: scale(1, 1);
+      }
+    }
   }
 }
 
@@ -63,7 +73,6 @@
   @media (min-width: 1200px) {
     margin: 51px 81px 32px 91px;
   }
-
   &__article {
     text-align: center;
     font-size: 1.8rem;
