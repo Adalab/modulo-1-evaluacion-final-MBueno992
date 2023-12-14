@@ -9,7 +9,7 @@ Este proyecto es la maquetación de una página de deporte a la que he llamado *
 Para realizar este proyecto se ha trabajado con **SASS**, para el diseño de la página se ha utilizado en ocasiones **flexbox** y **grid** que ha servido para poder adaptar la página a los diferentes formatos de dispositivos en los que se pueda visualizar. 
 > **NOTA:** Las medidas utilizadas para diferenciar los dispositivos son 320px para móvil, 768px para tablet y 1200px para desktop.
 
-También se ha utilizado el [Adalab_Web_Starter_Kit] (https://github.com/Adalab/adalab-web-starter-kit) que nos ha ofrecido todos los ficheros y carpetas necesarios para realizar el proyecto. Esta plantilla usa **Vite** para la ejecución de tareas.
+También se ha utilizado el [Adalab Web Starter Kit] (https://github.com/Adalab/adalab-web-starter-kit) que nos ha ofrecido todos los ficheros y carpetas necesarios para realizar el proyecto. Esta plantilla usa **Vite** para la ejecución de tareas.
 
 ### Pasos a seguir si queremos arrancar el proyecto desde nuestro VSC ⚙️
 
