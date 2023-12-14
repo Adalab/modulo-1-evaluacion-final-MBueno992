@@ -1,36 +1,38 @@
 .header {
   background-image: url(/images/cover.jpeg);
   background-position: 40%;
-  background-size: 200vh;
+
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   @media (min-width: 768px) {
     background-position: 20%;
   }
   @media (min-width: 1200px) {
     background-position: 45% 85%;
-    background-size: 150%;
   }
   &__main {
     background-color: $colorBrightOrange;
     padding: 10px;
     position: fixed;
+    top: 0;
     @media (min-width: 768px) {
       padding: 15px;
     }
   }
   &__offer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     text-align: center;
-    position: relative;
-    transform: translateY(60vh);
+    margin: 0 auto;
+    padding: 0 30px 38px 30px;
     @media (min-width: 768px) {
-      transform: translateY(55vh);
-      margin: 0 29px 49px 51px;
+      padding: 0 29px 45px 51px;
     }
-    @media (min-width: 1200px) {
-      transform: translateY(48vh);
+    @media (min-width: 768px) {
+      padding-bottom: 49px;
     }
     &--title {
       color: $colorWhite;
@@ -38,20 +40,21 @@
       font-size: 3rem;
       text-transform: uppercase;
       line-height: 50px;
+
       @media (min-width: 768px) {
         font-size: 7.5rem;
         line-height: normal;
       }
       @media (min-width: 1200px) {
         font-size: 10rem;
-        text-shadow: 0 0 5px black;
+        text-shadow: 0 1px 1px black;
       }
     }
     &--text {
       color: $colorWhite;
       font-family: $fontReg;
       font-size: 1.6rem;
-      margin: 0 34px 0 34px;
+
       @media (min-width: 768px) {
         font-size: 2.4rem;
         margin: 0 163px 20px 185px;
@@ -64,9 +67,6 @@
       border-radius: 50%;
       @media (min-width: 768px) {
         padding: 15px 13px;
-      }
-      @media (min-width: 1200px) {
-        margin-bottom: 49px;
       }
     }
   }
